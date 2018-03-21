@@ -1,0 +1,118 @@
+---
+author: 'Marcel-Alin Rusu'
+title: 'Intro to Elixir'
+
+...
+
+# Introduction
+
+. . .
+
+- This talk will be a fun little incomplete tour of what I found interesting in Elixir!
+
+# What is Elixir
+
+. . .
+
+- Highly concurrent functional programming language
+
+. . .
+
+- Built on top of the BEAM (erlang virtual machine)
+
+. . .
+
+- Has Ruby-like syntax
+
+# Why should you care about Elixir?
+
+. . .
+
+- Expressiveness
+
+. . .
+
+- Strong Concurrency Model
+
+. . .
+
+- Active & Welcoming Community
+
+# Expressiveness
+
+. . .
+
+- Expressiveness comes from a few important concepts in Elixir
+
+. . .
+
+- Everything is an expression
+
+. . .
+
+- Pipe Operator
+
+. . .
+
+- Pattern Matching
+
+. . .
+
+- Dynamic Typing (with optional typing)
+
+. . .
+
+- and More!
+
+# Expressions
+
+. . .
+
+- Everything is an expression!!
+
+. . .
+
+iex demo
+
+# Pipe Operator
+
+. . .
+
+- x |> f is the same as f(x)
+
+. . .
+
+- Might seem trivial but this is super useful way to compose functions
+
+. . .
+
+demo
+
+# Pattern Matching
+
+. . .
+
+- Pattern Matching is a way to
+
+A) Deconstruct data types
+B) Do flow control
+
+. . .
+
+- Deconstruction demo
+
+. . .
+
+- Pattern matching with case demo
+
+. . .
+
+- Pattern matching with functions demo
+
+. . .
+
+- Pattern matching with `when` clause demo
+
+. . .
+
+- Quick Sort
